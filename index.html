@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Website of Rica Mae Rapatan and Kyla Hazel Montiza, showcasing projects and contact details">
+    <title>Portfolio Website</title>
+
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Rica Mae & Kyla Hazel <span>Portfolio</span>
+            </div>
+
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                    <a href="#Home">Home</a>
+                </div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <a href="#About_Us">About Us</a>
+                </div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <a href="#Projects">Projects</a>
+                </div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                    <a href="#Contact">Contacts</a>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#Home">Home</a>
+                <a href="#About_Us">About Me</a>
+                <a href="#Projects">Projects</a>
+                <a href="#Contact">Contacts</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="Home">
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+                    Hey, we're <span>Rica Mae & Kyla Hazel</span>
+                </h1>
+                <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900" class="typewriter">
+                    We are BSIT 3A <span class="typewriter-text"></span><label for=""></label>
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100" class="homeinfo">
+                    Students passionate about technology, graphic design, and solving real-world problems through innovation.
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/chubbyrics" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <p>Rica's GitHub</p>
+                    <a href="https://www.facebook.com/ricamae.rapatanii" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <p>Rica's Facebook</p>
+                    <a href="https://github.com/Skymoonteaza" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <p>Kyla's GitHub</p>
+                    <a href="https://www.facebook.com/kylamae.monteza/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1700" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <p>Kyla's Facebook</p>
+                </div>
+            </div>
+            <div class="image" data-aos="zoom-in" data-aos-duration="3000">
+                <div class="profile-circle">
+                    <img src="coverphoto.jpg" alt="Kyla Hazel" class="circle-photo" />
+              
+            </div>
+        </div>
+    </section>
+
+    <section id="About_Us">
+      <div class="about-container">
+        <!-- About Us Image -->
+        <div class="about-image" data-aos="zoom-in">
+          <img src="aboutus.jpg" alt="About us" />
+        </div>
+    
+        <!-- About Us Text -->
+        <div class="about-text">
+          <h2 class="about-title">About Us</h2>
+          <p>
+            We are Rica Mae Rapatan and Kyla Hazel Montiza, Information Technology students at BISU Balilihan Campus. Together, we explore the fascinating world of technology and design, developing skills in programming, web development, and graphic design.
+          </p>
+          <p>
+            Rica has a strong focus on creative design and technology, while Kyla contributes her expertise in user experience and project organization. Together, we aim to create meaningful projects that combine functionality and aesthetics.
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="Projects" class="projects">
+        <h2 class="projects-heading" data-aos="fade-up" data-aos-duration="1500">Projects</h2>
+      
+        <div class="project-container">
+          <!-- Rica's Portfolio Project -->
+          <div class="project-card" data-aos="fade-up" data-aos-duration="1500">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="ricaportfolio.png" alt="Rica Portfolio" class="project-image">
+                </div>
+                <div class="flip-card-back">
+                  <h3>Rica's Portfolio Website</h3>
+                  <p>Rica's portfolio created with HTML, CSS, and JavaScript showcasing her coding projects.</p>
+                  <a href="https://github.com/chubbyrics/portfolio-website" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Kyla's Wix Website -->
+          <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="wixproject.png" alt="Kyla Wix Project" class="project-image">
+                </div>
+                <div class="flip-card-back">
+                  <h3>Kyla's Wix Website</h3>
+                  <p>Kyla's website built on Wix, emphasizing ease of use and convenience.</p>
+                  <a href="https://uys11631.wixsite.com/my-site-30" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Kyla's GitHub Portfolio -->
+          <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="kylaportfolio.png" alt="Kyla Portfolio" class="project-image">
+                </div>
+                <div class="flip-card-back">
+                  <h3>Kyla's Portfolio Website</h3>
+                  <p>Kyla's portfolio website created using HTML, CSS, and JavaScript.</p>
+                  <a href="https://skymoonteaza.github.io/kyla/" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- Contact Section -->
+    <section id="Contact" class="contact-section">
+        <div class="contact-container">
+          <form id="contactForm" data-aos="fade-up" data-aos-duration="1500">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required placeholder="e.g. Juan Dela Cruz">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address:</label>
+              <input type="email" id="email" name="email" required placeholder="e.g. delacruz00@gmail.com">
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+    </section>
+    
+   <!-- Footer -->
+<footer>
+  <p>&copy; 2024 Rica Mae Rapatan and Kyla Hazel Montiza. All rights reserved.</p>
+  <p>Designed with ❤️ by Rica and Kyla</p>
+  <p>Can't reach us? Contact us via our facebook account:</p>
+  <a href="https://www.facebook.com/ricamae.rapatanii" target="_blank" rel="noopener noreferrer">Rica Mae Rapatan</a> |
+  <a href="https://www.facebook.com/kylamae.monteza/" target="_blank" rel="noopener noreferrer">Kyla Hazel Montiza</a>
+</footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
